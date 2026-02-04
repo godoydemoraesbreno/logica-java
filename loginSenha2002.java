@@ -1,0 +1,27 @@
+package exercicios;
+import java.util.Scanner;
+
+public class loginSenha2002 {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a senha para logar: ");
+		int senha = sc.nextInt();
+		
+		while (senha != 2002 ) {
+			System.out.println("Senha invalida, digite a senha correta: ");
+			senha = sc.nextInt();
+			
+		}
+		
+			System.out.println("Seu login foi um sucesso!");
+			
+			sc.close();
+		
+		
+		
+	}
+
+}
